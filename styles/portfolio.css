@@ -194,10 +194,13 @@ footer input[type="text"], footer input[type="email"], textarea{
   display: none;
 }
 @media screen and (max-width: 576px) {
-  .skill-container, .resume-container, footer{
+  .skill-container, 
+  .resume-container, 
+  footer,
+  .about-items{
     flex-direction: column;
   }
-  footer{
+  footer, .about{
     padding: 20px;
   }
   .footer-column{
